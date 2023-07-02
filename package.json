@@ -2,7 +2,7 @@
   "name": "my-fullstack-collection",
   "version": "0.1.0",
   "description": "Build a fullstack collection app",
-  "repository": "https://https://github.com/dev-academy-challenges/my-fullstack-collection",
+  "repository": "https://https://github.com/James-BoilerPlate",
   "main": "server/index.ts",
   "scripts": {
     "build": "run-s build:client build:server",
@@ -63,11 +63,14 @@
   },
   "dependencies": {
     "@devacademy/eslint-config": "^1.8.0",
+    "@react-three/drei": "^9.77.10",
+    "@react-three/fiber": "^8.8.2",
     "@redux-devtools/extension": "^3.2.3",
     "express": "^4.17.2",
     "knex": "^2.3.0",
     "sqlite3": "^5.1.2",
     "superagent": "7.1.1",
+    "three": "^0.144.0",
     "ts-node": "^10.9.1"
   },
   "prettier": {

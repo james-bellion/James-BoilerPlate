@@ -1,10 +1,11 @@
+import Home from './Home'
+
 function App() {
   return (
     <>
-      <header className="header">
-        <h1>james's collection</h1>
-      </header>
-      <section className="main">{/* add your code here */}</section>
+      <section className="main">
+      <Home />
+      </section>
     </>
   )
 }
